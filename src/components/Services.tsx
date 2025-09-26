@@ -1,41 +1,48 @@
 import React from 'react';
 import { Cloud, Shield, Brain, Users, Server, Smartphone } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const Services = () => {
   const services = [
     {
       icon: Cloud,
       title: 'Cloud Infrastructure',
+      path: '/services/cloud-infrastructure',
       description: 'Scalable cloud solutions with AWS, Azure, and Google Cloud. Migration, optimization, and management services.',
       features: ['Multi-cloud strategy', 'Cost optimization', 'Auto-scaling', '99.9% uptime SLA']
     },
     {
       icon: Shield,
       title: 'Cybersecurity',
+      path: '/services/cybersecurity',
       description: 'Comprehensive security solutions protecting against modern threats with advanced monitoring and response.',
       features: ['Threat detection', 'Compliance management', 'Security audits', '24/7 monitoring']
     },
     {
       icon: Brain,
       title: 'AI & Machine Learning',
+      path: '/services/ai-machine-learning',
       description: 'Intelligent automation and predictive analytics to drive business insights and operational efficiency.',
       features: ['Predictive analytics', 'Process automation', 'Custom AI models', 'Data visualization']
     },
     {
       icon: Users,
       title: 'IT Consulting',
+      path: null,
       description: 'Strategic technology consulting to align IT infrastructure with business objectives and growth.',
       features: ['Digital strategy', 'Architecture design', 'Technology roadmaps', 'Change management']
     },
     {
       icon: Server,
       title: 'Infrastructure Management',
+      path: null,
       description: 'Complete infrastructure lifecycle management from design to maintenance and optimization.',
       features: ['Server management', 'Network optimization', 'Disaster recovery', 'Performance monitoring']
     },
     {
       icon: Smartphone,
       title: 'Digital Solutions',
+      path: null,
       description: 'Custom software development and digital transformation solutions for modern enterprises.',
       features: ['Custom applications', 'API development', 'Integration services', 'Mobile solutions']
     }
@@ -85,12 +92,21 @@ const Services = () => {
                   ))}
                 </ul>
 
-                <a 
-                  href="mailto:it-solutions@vercel.app?subject=Service%20Inquiry:%20{service.title}"
-                  className="inline-flex items-center mt-6 text-blue-600 hover:text-blue-700 font-medium text-sm group-hover:translate-x-1 transition-transform"
-                >
-                  Learn More →
-                </a>
+                {service.path ? (
+                  <Link 
+                    to={service.path}
+                    className="inline-flex items-center mt-6 text-blue-600 hover:text-blue-700 font-medium text-sm group-hover:translate-x-1 transition-transform"
+                  >
+                    Learn More →
+                  </Link>
+                ) : (
+                  <a 
+                    href={`mailto:it-solutions@vercel.app?subject=Service%20Inquiry:%20${service.title}`}
+                    className="inline-flex items-center mt-6 text-blue-600 hover:text-blue-700 font-medium text-sm group-hover:translate-x-1 transition-transform"
+                  >
+                    Learn More →
+                  </a>
+                )}
               </div>
             );
           })}
