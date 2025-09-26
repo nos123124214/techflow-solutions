@@ -58,7 +58,7 @@ const Header = () => {
               Contact
             </a>
             <a 
-              href="mailto:techflow-solutions@vercel.app" 
+              href="mailto:it-solutions@vercel.app" 
               className="bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition-colors font-medium"
             >
               Get Quote
@@ -94,7 +94,7 @@ const Header = () => {
                 Contact
               </a>
               <a 
-                href="mailto:techflow-solutions@vercel.app" 
+                href="mailto:it-solutions@vercel.app" 
                 className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors font-medium inline-block text-center"
               >
                 Get Quote

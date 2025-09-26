@@ -163,7 +163,7 @@ const Cybersecurity = () => {
             Get a comprehensive security assessment and protect your organization today.
           </p>
           <a 
-            href="mailto:techflow-solutions@vercel.app?subject=Cybersecurity%20Assessment"
+            href="mailto:it-solutions@vercel.app?subject=Cybersecurity%20Assessment"
             className="inline-flex items-center bg-white text-red-600 px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition-colors"
           >
             Schedule Security Assessment
