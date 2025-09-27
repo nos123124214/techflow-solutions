@@ -118,7 +118,7 @@ const TermsOfService = () => {
               </p>
               <div className="bg-gray-50 p-4 rounded-lg">
                 <p className="font-medium">TechFlow Solutions</p>
-                <p>Email: <a href="mailto:IT@tf-solutions.vercep.app" className="text-blue-600 hover:text-blue-700">IT@tf-solutions.vercep.app</a></p>
+                <p>Email: <a href="mailto:IT@tf-solutions.vercel.app" className="text-blue-600 hover:text-blue-700">IT@tf-solutions.vercel.app</a></p>
               </div>
             </div>
           </section>
