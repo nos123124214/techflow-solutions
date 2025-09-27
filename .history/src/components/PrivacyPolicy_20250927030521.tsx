@@ -97,8 +97,8 @@ const PrivacyPolicy = () => {
               </ul>
               <p>
                 To exercise these rights, please contact us at{' '}
-                <a href="mailto:technology-solutions@vercel.app" className="text-blue-600 hover:text-blue-700">
-                  technology-solutions@vercel.app
+                <a href="mailto:technology-flow-solutions@vercel.app" className="text-blue-600 hover:text-blue-700">
+                  technology-flow-solutions@vercel.app
                 </a>
               </p>
             </div>
@@ -113,7 +113,7 @@ const PrivacyPolicy = () => {
               </p>
               <div className="bg-gray-50 p-4 rounded-lg">
                 <p className="font-medium">TechFlow Solutions</p>
-                <p>Email: <a href="mailto:technology-solutions@vercel.app" className="text-blue-600 hover:text-blue-700">technology-solutions@vercel.app</a></p>
+                <p>Email: <a href="mailto:technology-flow-solutions@vercel.app" className="text-blue-600 hover:text-blue-700">technology-flow-solutions@vercel.app</a></p>
               </div>
             </div>
           </section>
