@@ -101,7 +101,7 @@ const Services = () => {
                   </Link>
                 ) : (
                   <a 
-                    href={`mailto:it@tf-solutions@vercel.app?subject=Service%20Inquiry:%20${service.title}`}
+                    href={`mailto:IT@tf-solutions.vercep.app?subject=Service%20Inquiry:%20${service.title}`}
                     className="inline-flex items-center mt-6 text-blue-600 hover:text-blue-700 font-medium text-sm group-hover:translate-x-1 transition-transform"
                   >
                     Learn More →

@@ -137,7 +137,7 @@ const CloudInfrastructure = () => {
             Get a free consultation and discover how cloud infrastructure can accelerate your business.
           </p>
           <a 
-            href="mailto:it@tf-solutions@vercel.app?subject=Cloud%20Infrastructure%20Consultation"
+            href="mailto:IT@tf-solutions.vercep.app?subject=Cloud%20Infrastructure%20Consultation"
             className="inline-flex items-center bg-white text-blue-600 px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition-colors"
           >
             Get Started Today
