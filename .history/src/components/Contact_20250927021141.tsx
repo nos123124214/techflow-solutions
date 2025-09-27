@@ -37,10 +37,10 @@ const Contact = () => {
                 <div>
                   <div className="font-semibold text-gray-900">Email</div>
                   <a 
-                    href="mailto:it-solutions@vercel.app" 
+                    href="mailto:it@tf-solutions@vercel.app" 
                     className="text-blue-600 hover:text-blue-700 transition-colors"
                   >
-                    it-solutions@vercel.app
+                    it@tf-solutions@vercel.app
                   </a>
                 </div>
               </div>
@@ -105,7 +105,7 @@ const Contact = () => {
               Request a Consultation
             </h3>
             <form 
-              action="mailto:it-solutions@vercel.app" 
+              action="mailto:it@tf-solutions@vercel.app" 
               method="post" 
               encType="text/plain"
               className="space-y-6"

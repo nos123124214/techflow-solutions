@@ -23,7 +23,7 @@ const Hero = () => {
 
             <div className="flex flex-col sm:flex-row gap-4">
               <a 
-                href="mailto:it-solutions@vercel.app?subject=Enterprise%20Solution%20Inquiry"
+                href="mailto:it@tf-solutions@vercel.app?subject=Enterprise%20Solution%20Inquiry"
                 className="inline-flex items-center bg-blue-600 hover:bg-blue-700 px-8 py-4 rounded-lg font-semibold transition-colors group"
               >
                 Start Your Digital Transformation

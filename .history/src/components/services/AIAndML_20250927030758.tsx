@@ -168,7 +168,7 @@ const AIAndML = () => {
             Discover how AI and machine learning can transform your business operations.
           </p>
           <a 
-            href="mailto:it-solutions@vercel.app?subject=AI%20and%20Machine%20Learning%20Consultation"
+            href="mailto:it@tf-solutions@vercel.app?subject=AI%20and%20Machine%20Learning%20Consultation"
             className="inline-flex items-center bg-white text-purple-600 px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition-colors"
           >
             Explore AI Solutions
