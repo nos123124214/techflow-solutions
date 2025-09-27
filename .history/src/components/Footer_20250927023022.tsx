@@ -21,7 +21,7 @@ const Footer = () => {
             </p>
             <div className="flex space-x-4">
               <a 
-                href="mailto:techflow-solutions@vercel.app" 
+                href="mailto:technology-solutions@vercel.app" 
                 className="bg-blue-600 hover:bg-blue-700 p-2 rounded-lg transition-colors"
               >
                 <Mail className="w-5 h-5" />
@@ -78,8 +78,8 @@ const Footer = () => {
               <span>•</span>
               <span>99.9% Uptime SLA</span>
               <span>•</span>
-              <a href="mailto:techflow-solutions@vercel.app" className="text-blue-400 hover:text-blue-300">
-                techflow-solutions@vercel.app
+              <a href="mailto:technology-solutions@vercel.app" className="text-blue-400 hover:text-blue-300">
+                technology-solutions@vercel.app
               </a>
             </div>
           </div>
