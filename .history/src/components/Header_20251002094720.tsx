@@ -89,7 +89,9 @@ const Header = () => {
               <a href="#about" className="text-gray-700 hover:text-blue-600 font-medium">
                 {t.header.about}
               </a>
-           
+              <a href="#clients" className="text-gray-700 hover:text-blue-600 font-medium">
+                {t.header.clients}
+              </a>
               <a href="#contact" className="text-gray-700 hover:text-blue-600 font-medium">
                 {t.header.contact}
               </a>
